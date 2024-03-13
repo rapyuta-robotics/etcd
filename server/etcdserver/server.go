@@ -77,7 +77,7 @@ const (
 	// We expect the follower has a millisecond level latency with the leader.
 	// The max throughput is around 10K. Keep a 5K entries is enough for helping
 	// follower to catch up.
-	DefaultSnapshotCatchUpEntries uint64 = 5000
+	DefaultSnapshotCatchUpEntries uint64 = 100
 
 	StoreClusterPrefix = "/0"
 	StoreKeysPrefix    = "/1"
